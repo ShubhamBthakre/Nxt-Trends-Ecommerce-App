@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cart-total-heading {
+  font-size: 16px;
+  text-align: end;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: #616e7c;
+  margin-bottom: 10px;
+}
+.item-count {
+  font-size: 14px;
+  text-align: end;
+  font-weight: 300;
+  font-family: 'roboto';
+  color: #616e7c;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .cart-summary-container {
+    width: 300px;
+    margin-left: auto;
+  }
+  .cart-total-heading {
+    font-size: 18px;
+  }
+  .item-count {
+    font-size: 16;
+  }
+  .checkout-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}
